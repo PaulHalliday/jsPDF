@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'app';
   output: string;
 
-  savePdf() {
+  showPdf() {
     const doc = new jsPDF();
 
     doc.text('Hello World!', 10, 10);
